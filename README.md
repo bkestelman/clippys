@@ -4,6 +4,7 @@ simple clipboard manager for efficiency freaks
 No GUI, no frills, no nonsense
 
 Just ctrl+c+0, ctrl+c+9, ctrl+c+8 to copy to clipboard 0, 9, or 8
+
 ctrl+b+0, ctrl+b+9, ctrl+b+8 to paste from clipboard 0, 9, or 8
 
 ## Known limitations, plans for updates
