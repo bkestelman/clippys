@@ -7,7 +7,7 @@ Just ctrl+<+0, ctrl+<+9, ctrl+<+8 to copy to clipboard 0, 9, or 8
 
 ctrl+>+0, ctrl+>+9, ctrl+>+8 to paste from clipboard 0, 9, or 8
 
-Note: you don't need shift to do ctrl+> or ctrl+< (at least on my machine). I suppose technically they're ctrl+, and ctrl+. but '<' and '>' are visually appealing symbols for copy and paste. In fact, the code specifies '<' and '>', not ',' and '.'... but in my tesYuts I haven't needed to use shift. Let me know if on your machine you do need shift. In any case it's easy to change the hotkeys in the code, or you can use a tool like AutoHotkey. 
+Note: you don't need shift to do ctrl+> or ctrl+< (at least on my machine). I suppose technically they're ctrl+, and ctrl+. but '<' and '>' are visually appealing symbols for copy and paste. In fact, the code specifies '<' and '>', not ',' and '.'... but in my tests I haven't needed to use shift. Let me know if on your machine you do need shift. In any case it's easy to change the hotkeys in the code, or you can use a tool like AutoHotkey. 
 
 ## Known limitations, plans for updates
 
