@@ -11,6 +11,8 @@ Note: you don't need shift to do ctrl+> or ctrl+< (at least on my machine). I su
 
 Also, ctrl+< and ctrl+> are great because they're the only freaking key combos that aren't used by every other program (except maybe emacs).
 
+Ah crap, vim too. Gonna have to find different keys then. This won't do at all.
+
 ## Security Warning
 
 ### Understand the risks of copying passwords or other sensitve info. This applies to the standard clipboard as well, but with clippys the risk is greater. Close clippys and the terminal it was running on before letting anyone use your computer. Although really you probably shouldn't be letting people use your computer, and definitely lock it with a strong password while you're away...
