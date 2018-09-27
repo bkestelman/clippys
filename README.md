@@ -9,6 +9,8 @@ ctrl+>+0, ctrl+>+9, ctrl+>+8 to paste from clipboard 0, 9, or 8
 
 Note: you don't need shift to do ctrl+> or ctrl+< (at least on my machine). I suppose technically they're ctrl+, and ctrl+. but '<' and '>' are visually appealing symbols for copy and paste. In fact, the code specifies '<' and '>', not ',' and '.'... but in my tests I haven't needed to use shift. Let me know if on your machine you do need shift. In any case it's easy to change the hotkeys in the code, or you can use a tool like AutoHotkey. 
 
+Also, ctrl+< and ctrl+> are great because they're the only freaking key combos that aren't used by every other program (except maybe emacs).
+
 ## Security Warning
 
 ### Understand the risks of copying passwords or other sensitve info. This applies to the standard clipboard as well, but with clippys the risk is greater. Close clippys and the terminal it was running on before letting anyone use your computer. Although really you probably shouldn't be letting people use your computer, and definitely lock it with a strong password while you're away...
