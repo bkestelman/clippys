@@ -11,7 +11,7 @@ Note: you don't need shift to do ctrl+> or ctrl+< (at least on my machine). I su
 
 ## Security Warning
 
-### Understand the risks of copying passwords or other sensitve info. This applies to the standard clipboard as well, but with clippys the risk is greater. Close clippys and the terminal it was running on before letting anyone use your computer. Although really you probably shouldn't be letting people use your computer, and definitely lock it with a strong password while you're away. 
+### Understand the risks of copying passwords or other sensitve info. This applies to the standard clipboard as well, but with clippys the risk is greater. Close clippys and the terminal it was running on before letting anyone use your computer. Although really you probably shouldn't be letting people use your computer, and definitely lock it with a strong password while you're away...
 
 ## Known limitations, plans for updates
 
