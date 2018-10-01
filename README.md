@@ -1,20 +1,19 @@
 # clippys
 simple clipboard manager for efficiency freaks
 
-No GUI, no frills, no nonsense
+## Usage
+```python clippys.py```
+clippys currently lets you manage up to 3 clipboards, called 0, 8, and 9. 
 
-Just ctrl+c+0, ctrl+c+9, ctrl+c+8 to copy to clipboard 0, 9, or 8
+To copy something into clippys, first copy to the system clipboard with ctrl+c
 
-ctrl+b+0, ctrl+b+9, ctrl+b+8 to paste from clipboard 0, 9, or 8
+Then store it in one of clippy's clipboards with ctrl+alt+c+'0, 9, or 8'
 
-## Known limitations, plans for updates
+To paste from one of clippy's clipboards, first load from the system clipboard with ctrl+alt+v+'0, 9, or 8'
 
-Currently limited to just 3 clipboards. In future update, you'll be able to add as many as you want (and possibly name them)
+Then paste with ctrl+v
 
-Using 0, 9, 8 instead of 1, 2, 3 because they are easier to reach after ctrl+c (try it!)
+## Customizing
+The code is really simple and easy to edit. 
 
-Using ctrl+b because it seems to be the only key combo that no other program uses. (jk, word processors use it for bold... so I'll probably change it in next update)
-
-Might switch to a different keyboard library - this one doesn't seem to handle alt correctly, which would be nice.
-
-Only tested on Windows, but the libraries used are cross platform (supposedly)
+If you want to change the hotkeys, simply modify the "clip_keys" list. You can have as many as you want. You don't need to touch any other part of the code - just change the list and it will work. But be aware that many key combos are used by other programs. 
