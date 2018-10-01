@@ -1,12 +1,23 @@
 # clippys
 simple clipboard manager for efficiency freaks
 
-Check out win32 branch for a working version (Windows only)
+## Usage
+```python clippys.py```
 
-### Technical Discussion
+clippys currently lets you manage up to 3 clipboards, called 0, 8, and 9. 
 
-master branch contains a sort of working version, but has some problems: basically, programs like google docs have a keyboard shortcut for every useless functionality you could possibly think of, so all the ctrl+whatever combos are taken (yes, even ctrl+< and ctrl+>). My solution to this would have been to use alt, but this causes another problem: the way the code on master works is it literally sends 'ctrl+c' whenever the "copy_hotkey" is pressed. But if the copy_hotkey contains alt, essentially ctrl+alt+c will be pressed simultaneously. As you can test for yourself, this will fail to copy. 
+To copy something into clippys, first copy to the system clipboard with ctrl+c
 
-Thus, I had to develop a solution that would copy text without sending keystrokes (ctrl+c or ctrl+v), but rather using system api's. 
+Then store it in one of clippy's clipboards with ctrl+alt+c+'0, 9, or 8'
 
-So far, I have only developed this for Windows using pywin32. 
+To paste from one of clippy's clipboards, first load from the system clipboard with ctrl+alt+v+'0, 9, or 8'
+
+Then paste with ctrl+v
+
+## Customizing
+The code is really simple and easy to edit. 
+
+If you want to change the hotkeys, simply modify the "clip_keys" list. You can have as many as you want. You don't need to touch any other part of the code - just change the list and it will work. But be aware that many key combos are used by other programs. 
+
+## Technical Discussion
+It's a little annoying that clippys requires two combos to copy or paste (e.g. ctrl+c followed by ctrl+alt+c+0). Why is ctrl+c required? Because I haven't figured out how to grab the selected text from a window. Once the user copies text to clipboard with ctrl+c, I can do whatever I want with it. Ideally, this extra step on the part of the user will not be necessary. 
