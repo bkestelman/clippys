@@ -3,6 +3,7 @@ simple clipboard manager for efficiency freaks
 
 ## Usage
 ```python clippys.py```
+
 clippys currently lets you manage up to 3 clipboards, called 0, 8, and 9. 
 
 To copy something into clippys, first copy to the system clipboard with ctrl+c
