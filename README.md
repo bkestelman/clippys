@@ -10,7 +10,7 @@ To copy something into clippys, first copy to the system clipboard with ctrl+c
 
 Then store it in one of clippy's clipboards with ctrl+alt+c+'0, 9, or 8'
 
-To paste from one of clippy's clipboards, first load from the system clipboard with ctrl+alt+v+'0, 9, or 8'
+To paste from one of clippy's clipboards, first load to the system clipboard with ctrl+alt+v+'0, 9, or 8'
 
 Then paste with ctrl+v
 
