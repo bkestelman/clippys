@@ -17,3 +17,8 @@ Then paste with ctrl+v
 The code is really simple and easy to edit. 
 
 If you want to change the hotkeys, simply modify the "clip_keys" list. You can have as many as you want. You don't need to touch any other part of the code - just change the list and it will work. But be aware that many key combos are used by other programs. 
+
+## Technical Discussion
+It's a little annoying that clippys requires two combos to copy or paste (e.g. ctrl+c followed by ctrl+alt+c+0). Why is ctrl+c required? Because I haven't figured out how to grab the selected text from a window. Once the user copies text to clipboard with ctrl+c, I can do whatever I want with it. Ideally, this extra step on the part of the user will not be necessary. 
+
+Just realized if the user is doing the extra step of copying with ctrl+c, I don't need the win32 api to control the clipboard - could have just used pyperclip. Will update the master branch to get it working like the win32 branch, but with pyperclip. Grabbing selected text from window would be really nice, and is next priority. 
